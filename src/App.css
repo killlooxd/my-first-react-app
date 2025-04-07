@@ -1,38 +1,309 @@
-.App {
+/* Общая стилизация */
+body {
+  background-color: #1e293b; /* Темно-синий/фиолетовый (примерный оттенок) */
+  color: #f9fafb; /* Светлый текст для контраста */
+  font-family: sans-serif; /* Или любой другой предпочитаемый шрифт */
+  margin: 0;
+  padding: 0;
+}
+
+.app-layout {
+  display: flex; /* Используем flex для бокового макета */
+  min-height: 100vh; /* Занимаем всю высоту экрана */
+}
+
+.side-navigation {
+  width: 200px; /* Примерная ширина */
+  background-color: #334155; /* Немного светлее фон для разделения */
+  color: #cbd5e0;
+  padding: 1rem;
+  box-sizing: border-box; /* Включает padding в ширину */
+}
+
+.side-navigation .logo {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #4a5568;
+  margin-bottom: 1rem;
+}
+
+.side-navigation .logo a {
+  color: #f9fafb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.side-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-navigation ul li {
+  margin-bottom: 0.5rem;
+}
+
+.side-navigation ul li a {
+  display: block;
+  color: #cbd5e0;
+  text-decoration: none;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.side-navigation ul li a:hover {
+  background-color: #4a5568;
+  color: #f9fafb;
+}
+
+.side-navigation .user-info {
+  margin-top: auto; /* Прижимает к низу */
+  padding-top: 1rem;
+  border-top: 1px solid #4a5568;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.side-navigation .user-info .nickname {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: #f9fafb;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.side-navigation .user-info button {
+  background-color: #e53e3e; /* Красный для выхода */
+  color: #f9fafb;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.side-navigation .user-info button:hover {
+  background-color: #c53030;
+}
+
+.side-navigation .user-info a {
+  color: #f9fafb;
+  text-decoration: none;
+}
+
+.main-content {
+  flex-grow: 1; /* Занимает оставшееся пространство */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #334155; /* Немного светлее фон для разделения */
+  padding: 1rem;
+  color: #f9fafb;
+  margin-bottom: 20px;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 1.75rem;
+}
+
+.page-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 20px;
+  flex-grow: 1; /* Занимает оставшееся пространство в main-content */
+}
+
+.card {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для секций ДКП внутри карточки */
+.dkp-section {
+  margin-bottom: 20px; /* Добавляем отступ между секциями */
+}
+
+.dkp-section h3 {
+  color: #f97316; /* Акцентный цвет для подзаголовков */
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.dkp-section label {
+  display: block;
+  margin-bottom: 5px;
+  color: #cbd5e0;
+  padding-left: 5px; /* Добавляем небольшой левый отступ к меткам */
+}
+
+.dkp-section select,
+.dkp-section input[type='number'] {
+  width: calc(100% - 12px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #4a5568;
+  border-radius: 4px;
+  background-color: #334155;
+  color: #f9fafb;
+  box-sizing: border-box;
+  margin-left: 5px; /* Добавляем небольшой левый отступ к элементам формы */
+}
+
+.dkp-section button {
+  margin-top: 10px;
+  margin-left: 5px; /* Добавляем небольшой левый отступ к кнопке */
+  background-color: #f97316; /* Насыщенный оранжевый (примерный оттенок) */
+}
+
+.dkp-section button:hover {
+  background-color: #ea580c; /* Немного темнее при наведении */
+}
+
+.card label {
+  /* Этот стиль останется для общих меток, если они есть вне секций */
+  display: block;
+  margin-bottom: 5px;
+  color: #cbd5e0;
+}
+
+.card select,
+.card input[type='text'],
+.card input[type='number'] {
+  /* Эти стили также остаются общими для всех select и input */
+  width: calc(100% - 12px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #4a5568;
+  border-radius: 4px;
+  background-color: #334155;
+  color: #f9fafb;
+  box-sizing: border-box;
+}
+
+.card button {
+  /* Ваши стили для кнопок */
+  margin-top: 10px;
+  background-color: #f97316; /* Насыщенный оранжевый (примерный оттенок) */
+}
+
+.card button:hover {
+  background-color: #ea580c; /* Немного темнее при наведении */
+}
+
+/* Стилизация ссылок (пример - акцентный цвет) */
+a {
+  color: #f97316;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.auction-list-container {
+  display: flex;
+  flex-wrap: wrap; /* Перенос карточек на новую строку при необходимости */
+  gap: 20px; /* Расстояние между карточками */
+  padding: 20px; /* Отступы вокруг списка */
+}
+
+.auction-card {
+  background-color: #334155; /* Фон карточки */
+  color: #f9fafb; /* Цвет текста в карточке */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  width: 300px; /* Примерная ширина карточки */
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.auction-card:hover {
+  transform: scale(1.02);
+}
+
+.auction-item h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #f97316; /* Акцентный цвет для названия */
+}
+
+.auction-item p {
+  margin-bottom: 5px;
+}
+
+/* Стили для модального окна */
+.auction-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  z-index: 1000; /* Чтобы модальное окно было поверх всего */
 }
 
-.App-link {
-  color: #61dafb;
+.auction-modal {
+  background-color: #2c3e50; /* Фон модального окна */
+  color: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: relative; /* Для позиционирования кнопки закрытия */
+  max-width: 80%;
+  max-height: 80%;
+  overflow-y: auto; /* Прокрутка, если содержимое не помещается */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.auction-modal .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: #cbd5e0;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.auction-modal h3 {
+  color: #f97316;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.auction-modal .bid-controls {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.auction-modal .bid-controls input[type='number'] {
+  padding: 10px;
+  border: 1px solid #4a5568;
+  border-radius: 4px;
+  background-color: #334155;
+  color: #f9fafb;
+}
+
+.auction-modal .bid-controls button {
+  /* Используйте ваши стандартные стили для кнопок */
+  background-color: #f97316; /* Насыщенный оранжевый (примерный оттенок) */
+}
+
+.auction-modal .bid-controls button:hover {
+  background-color: #ea580c; /* Немного темнее при наведении */
+}
+
+.auction-modal .error-message {
+  color: #e53e3e;
+  margin-top: 10px;
 }

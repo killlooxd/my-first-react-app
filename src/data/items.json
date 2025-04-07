@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Adentus's Gargantuan Greatsword",
+    "tier": "Epic T1",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/sword2h_aa_t5_boss_001",
+    "imageUrl": "../images/IT_P_Sword2h_00028.webp"
+  },
+
+  {
+    "name": "Shadow Harvester Mask",
+    "tier": "Epic T1",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/head_leather_aa_t1_nomal_004",
+    "imageUrl": "../images/P_Part_LE_M_HM_00008.webp"
+  },
+
+  {
+    "name": "Blessed Templar Helmet",
+    "tier": "Epic T1",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/head_plate_aa_t1_nomal_003",
+    "imageUrl": "../images/P_Part_PL_M_HM_00016.webp"
+  },
+
+  {
+    "name": "Girdle of Spectral Skulls",
+    "tier": "Epic T1",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/belt_aa_t1_nomal_003",
+    "imageUrl": "../images/IT_P_Belt_00021.webp"
+  },
+
+  {
+    "name": "Naru's Frenzied Greatblade",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/sword2h_aa_t5_boss_003",
+    "imageUrl": "../images/IT_P_Sword2h_00034.webp"
+  },
+
+  {
+    "name": "Naru's Sawfang Spear",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/spear_aa2_t1_normal_002",
+    "imageUrl": "../images/IT_P_Spear_00030.webp"
+  },
+
+  {
+    "name": "Spectral Overseer's Tunic",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/chest_leather_aa_t1_set_003",
+    "imageUrl": "../images/P_Set_LE_M_TS_00023.webp"
+  },
+
+  {
+    "name": "Royal Praetor's Plate Armor",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/chest_plate_aa_t1_set_001",
+    "imageUrl": "../images/P_Part_PL_M_TS_00011.webp"
+  },
+
+  {
+    "name": "Imperial Seeker's Tunic",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/chest_leather_aa_t1_set_004",
+    "imageUrl": "../images/P_Set_LE_M_TS_00015.webp"
+  },
+
+  {
+    "name": "Sacred Repose Garb",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/chest_fabric_aa_t1_set_001",
+    "imageUrl": "../images/P_Part_FA_M_TS_00004.webp"
+  },
+
+  {
+    "name": "Chosen Vanquisher's Trousers",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/legs_fabric_aa_t2_set_003",
+    "imageUrl": "../images/P_Set_FA_M_PT_06001A.webp"
+  },
+
+  {
+    "name": "Effortless Victory Greaves",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/legs_plate_aa_t2_boss_001",
+    "imageUrl": "../images/P_Part_PL_M_PT_00026.webp"
+  },
+
+  {
+    "name": "Runed Band of the Black Anvil",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/ring_aa_t2_boss_004",
+    "imageUrl": "../images/IT_P_Ring_00042.webp"
+  },
+
+  {
+    "name": "Symbol of Nature's Advance",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/ring_aa_t1_nomal_014",
+    "imageUrl": "../images/IT_P_Ring_00044.webp"
+  },
+
+  {
+    "name": "Daigon's Charred Emberstaff",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/staff_aa_t5_boss_003",
+    "imageUrl": "../images/IT_P_staff_00036.webp"
+  },
+
+  {
+    "name": "Daigon's Stormblade",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/sword_aa_t1_normal_009",
+    "imageUrl": "../images/IT_P_Sword_00017A.webp"
+  },
+
+  {
+    "name": "Spectral Overseer's Trousers",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/legs_leather_aa_t1_set_003",
+    "imageUrl": "../images/P_Set_LE_M_PT_00023.webp"
+  },
+
+  {
+    "name": "Royal Praetor's Gaiters",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/legs_plate_aa_t1_set_001",
+    "imageUrl": "../images/P_Set_PL_M_PT_00006A.webp"
+  },
+
+  {
+    "name": "Imperial Seeker's Trousers",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/legs_leather_aa_t1_set_004",
+    "imageUrl": "../images/P_Set_LE_M_PT_00005.webp"
+  },
+
+  {
+    "name": "Sacred Repose Pants",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/legs_fabric_aa_t1_set_001",
+    "imageUrl": "../images/P_Set_FA_M_PT_00020.webp"
+  },
+
+  {
+    "name": "Immortal Legionnaire's Helm",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/head_plate_aa_t2_set_002",
+    "imageUrl": "public/images/P_Set_PL_M_HM_00019A.webp"
+  },
+
+  {
+    "name": "Chosen Vanquisher's Visage",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/head_fabric_aa_t2_set_003",
+    "imageUrl": "../images/P_Set_FA_M_HM_06001A.webp"
+  },
+
+  {
+    "name": "Deep Fathom Grasp",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/hands_fabric_aa_t2_boss_001",
+    "imageUrl": "../images/P_Part_FA_M_GL_00026.webp"
+  },
+
+  {
+    "name": "Deep Draconic Gorget",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/necklace_aa_t2_boss_001",
+    "imageUrl": "../images/IT_P_Necklace_00041.webp"
+  },
+
+  {
+    "name": "Akman's Bloodletting Crossbows",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/crossbow_aa_t5_boss_003",
+    "imageUrl": "../images/IT_P_Crossbow_00031.webp"
+  },
+
+  {
+    "name": "Deckman's Balefire Scepter",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/wand_aa_t1_normal_011",
+    "imageUrl": "../images/IT_P_Wand_00003C.webp"
+  },
+
+  {
+    "name": "Spectral Overseer's Boots",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/feet_leather_aa_t1_set_003",
+    "imageUrl": "../images/P_Set_LE_M_BT_00023.webp"
+  },
+
+  {
+    "name": "Royal Praetor's Sabatons",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/feet_plate_aa_t1_set_001",
+    "imageUrl": "../images/P_Set_PL_M_BT_00009.webp"
+  },
+
+  {
+    "name": "Imperial Seeker's Boots",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/feet_leather_aa_t1_set_004",
+    "imageUrl": "../images/P_Set_LE_M_BT_00017.webp"
+  },
+
+  {
+    "name": "Sacred Repose Shoes",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/feet_fabric_aa_t1_set_001",
+    "imageUrl": "../images/P_Set_FA_M_BT_00020.webp"
+  },
+
+  {
+    "name": "Immortal Legionnaire's Greaves",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/legs_plate_aa_t2_set_002",
+    "imageUrl": "../images/P_Set_PL_M_PT_00019A.webp"
+  },
+
+  {
+    "name": "First Light's Pants",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/legs_leather_aa_t2_set_003",
+    "imageUrl": "../images/P_Set_FA_M_PT_00022A.webp"
+  },
+
+  {
+    "name": "Pristine Primalfang Pants",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/legs_leather_aa_t2_boss_001",
+    "imageUrl": "../images/P_Part_LE_M_PT_00026.webp"
+  },
+
+  {
+    "name": "Primal Ritual Collar",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/necklace_aa_t2_boss_003",
+    "imageUrl": "../images/IT_P_Necklace_00042.webp"
+  },
+
+  {
+    "name": "Leviathan's Bloodstorm Longbow",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/bow_aa_t2_boss_001",
+    "imageUrl": "../images/IT_P_Bow_00051.webp"
+  },
+
+  {
+    "name": "Leviathan's Bladed Tendrils",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/dagger_aa_t2_boss_002",
+    "imageUrl": "../images/IT_P_Dagger_00051.webp"
+  },
+
+  {
+    "name": "Spectral Overseer's Handguards",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/hands_leather_aa_t1_set_003",
+    "imageUrl": "../images/P_Set_LE_M_GL_00023.webp"
+  },
+
+  {
+    "name": "Royal Praetor's Gauntlets",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/hands_plate_aa_t1_set_001",
+    "imageUrl": "../images/P_Part_PL_M_GL_00006.webp"
+  },
+
+  {
+    "name": "Imperial Seeker's Gloves",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/hands_leather_aa_t1_set_004",
+    "imageUrl": "../images/P_Set_LE_M_GL_00015.webp"
+  },
+
+  {
+    "name": "Sacred Repose Gloves",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/hands_fabric_aa_t1_set_001",
+    "imageUrl": "../images/P_Part_FA_M_GL_00005B.webp"
+  },
+
+  {
+    "name": "First Light's Halo",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/head_leather_aa_t2_set_003",
+    "imageUrl": "../images/P_Part_FA_M_HM_00006A.webp"
+  },
+
+  {
+    "name": "Band of Ancestor's Blood",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/ring_aa_t2_boss_003",
+    "imageUrl": "../images/IT_P_Ring_00041.webp"
+  },
+
+  {
+    "name": "Bracelet of the Violent Undertow",
+    "tier": "Epic T2",
+    "questlogUrl": "https://questlog.gg/throne-and-liberty/en/db/item/bracelet_aa_t2_boss_004",
+    "imageUrl": "../images/IT_P_Bracelet_00041.webp"
+  }
+]

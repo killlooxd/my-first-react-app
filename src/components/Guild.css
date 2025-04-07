@@ -1,0 +1,68 @@
+.guild-container {
+  /* Стили для контейнера списка гильдии */
+}
+
+.guild-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.guild-member {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Размещаем информацию слева, кнопки справа */
+  padding: 8px 0;
+  border-bottom: 1px solid #4a5568; /* Разделитель между участниками */
+}
+
+.guild-member:last-child {
+  border-bottom: none;
+}
+
+.member-info {
+  flex-grow: 1; /* Занимает доступное пространство слева */
+}
+
+.dkp-controls {
+  display: flex;
+  gap: 5px; /* Расстояние между кнопками */
+  align-items: center;
+}
+
+.add-dkp-button,
+.remove-dkp-button,
+.dkp-submit-button,
+.dkp-cancel-button {
+  background-color: #4a5568;
+  color: #f9fafb;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.add-dkp-button:hover,
+.remove-dkp-button:hover,
+.dkp-submit-button:hover,
+.dkp-cancel-button:hover {
+  background-color: #718096;
+}
+
+.dkp-input {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dkp-input-field {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #718096;
+  border-radius: 4px;
+  background-color: #334155;
+  color: #f9fafb;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,39 @@
+.auction-item.card-view .image-container {
+  position: relative;
+  overflow: hidden; /* Чтобы ссылка не выходила за границы */
+}
+
+.auction-item.card-view .image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease; /* Плавное изменение прозрачности */
+}
+
+.auction-item.card-view .image-container:hover img {
+  opacity: 0.7; /* Немного затемняем изображение при наведении */
+}
+
+.auction-item.card-view .image-container .item-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  opacity: 0; /* Скрываем ссылку по умолчанию */
+  transition: opacity 0.3s ease;
+  z-index: 10; /* Чтобы быть над изображением */
+}
+
+.auction-item.card-view .image-container:hover .item-link {
+  opacity: 1; /* Показываем ссылку при наведении на контейнер */
+}
+
+/* Дополнительные стили для item-details по вашему усмотрению */
+.auction-item.card-view .item-details {
+  /* Ваши стили */
+}

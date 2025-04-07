@@ -1,0 +1,81 @@
+.side-navigation {
+  width: 200px; /* Примерная ширина */
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 20px;
+  /* position: fixed; /* Раскомментируйте, если хотите фиксированную боковую панель */
+  height: 100vh; /* Занимает всю высоту экрана */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Выравнивание элементов по левому краю */
+}
+
+.side-navigation .logo {
+  margin-bottom: 20px;
+}
+
+.side-navigation .logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.side-navigation .nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%; /* Занимает всю ширину боковой панели */
+}
+
+.side-navigation .nav-links li {
+  margin-bottom: 10px;
+  width: 100%; /* Чтобы ссылки занимали всю ширину li */
+}
+
+.side-navigation .nav-links li a {
+  display: block;
+  color: #ecf0f1;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Занимает всю ширину li */
+  box-sizing: border-box; /* Включает padding и border в ширину */
+}
+
+.side-navigation .nav-links li a:hover {
+  background-color: #34495e;
+}
+
+.side-navigation .user-info {
+  margin-top: auto; /* Прижимает информацию о пользователе к низу */
+  padding-top: 20px;
+  border-top: 1px solid #34495e;
+  width: 100%;
+  text-align: center; /* Центрируем никнейм и кнопку */
+}
+
+.side-navigation .user-info .nickname {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.side-navigation .user-info .logout-button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.side-navigation .user-info .logout-button:hover {
+  background-color: #c0392b;
+}
+
+.side-navigation .user-info a {
+  color: #ecf0f1;
+  text-decoration: none;
+}
